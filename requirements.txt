@@ -1,6 +1,8 @@
-streamlit
+speechrecognition
+pydub
 pandas
 cloudpickle
 matplotlib
 scipy
+xlsxwriter
 openpyxl
