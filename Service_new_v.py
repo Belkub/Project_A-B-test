@@ -141,7 +141,7 @@ elif pp == False and ss == True:
             if st.button('Удалить информацию о контрагенте'):
                 df_c = df_c.loc[df_c['Контрагент'] != t_1]
                 df_c.to_excel('РУО_1.xlsx')
-                print(df_f)
+            
             
     if dd == True and ss_1 == False:
         st.title('Заполнение/изменение полей')
@@ -238,3 +238,4 @@ else:
 ##except:
 ##    st.error("Ошибка ввода данных. Сделайте шаг назад или очистите кэш")
        
+
